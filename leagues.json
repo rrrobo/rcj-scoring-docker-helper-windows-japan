@@ -1,0 +1,4 @@
+[
+  {"type": "line", "id": "Line", "name": "Rescue Line"},
+  {"type": "maze", "id": "Maze", "name": "Rescue Maze"}
+]

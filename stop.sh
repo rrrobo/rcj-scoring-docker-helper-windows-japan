@@ -1,3 +1,3 @@
 #! /bin/bash
-echo "Dockerコンテナを停止します"
+echo "Stop the Docker container"
 sudo docker stop rcj-scoring-japan

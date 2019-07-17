@@ -1,9 +1,9 @@
 #! /bin/bash
-echo "最新版のイメージをDocker Hubからダウンロードします..."
+echo "Download the latest version of the image from Docker Cloud ..."
 sudo docker pull ryorobo/rcj-rescue-scoring-japan
-echo "古いコンテナを停止します..."
+echo "Stop the old container ..."
 sudo docker stop rcj-scoring-japan
-echo "古いコンテナを削除します..."
+echo "Remove the old container ..."
 sudo docker rm rcj-scoring-japan
-echo "新しいイメージで起動します..."
+echo "Launch with new image ..."
 ./run.sh
