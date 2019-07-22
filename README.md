@@ -17,36 +17,36 @@ RAM : 16GB
 ## Setup
 
 ### STEP1: Setup Docker
-Access the following site and download the installer.
+Access the following site and download the installer.  
 [https://hub.docker.com/editions/community/docker-ce-desktop-windows](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
 
 ![Docker for Windows](https://raw.githubusercontent.com/rrrobo/rcj-scoring-docker-helper-windows-international/images/dc-win.jpeg)
 
 Run the downloaded installer.
-When the following screen is displayed, press "OK".
+When the following screen is displayed, press "OK".  
 ![Install1](https://raw.githubusercontent.com/rrrobo/rcj-scoring-docker-helper-windows-international/images/install1.png)
 
-Installing
+Installing  
 ![Install2](https://raw.githubusercontent.com/rrrobo/rcj-scoring-docker-helper-windows-international/images/install2.png)
 
 Press Close and log out.
-Your computer will be logged out automatically. Please login again.
+Your computer will be logged out automatically. Please login again.  
 ![Install3](https://raw.githubusercontent.com/rrrobo/rcj-scoring-docker-helper-windows-international/images/install3.png)
 
 ### STEP2: Launch and configure Docker for Windows
 
-Double-click the following icon generated on the desktop to launch it.
+Double-click the following icon generated on the desktop to launch it.  
 ![Docker icon](https://raw.githubusercontent.com/rrrobo/rcj-scoring-docker-helper-windows-international/images/dc-icon.png)
 
-When the following message that Hyper-V is not activated is displayed, press OK to activate. After completion, the PC will restart automatically.
+When the following message that Hyper-V is not activated is displayed, press OK to activate. After completion, the PC will restart automatically.  
 ![HyperV](https://raw.githubusercontent.com/rrrobo/rcj-scoring-docker-helper-windows-international/images/hyperV.png)
 
-After restarting, when the following window is displayed, Docker for Windows has started successfully.
+After restarting, when the following window is displayed, Docker for Windows has started successfully.  
 ![Launch](https://raw.githubusercontent.com/rrrobo/rcj-scoring-docker-helper-windows-international/images/launch.png)
 
 Make settings.
 Right-click the Docker icon on the taskbar, go to Settings and press Shard Drives.
-![Share](https://raw.githubusercontent.com/rrrobo/rcj-scoring-docker-helper-windows-international/images/setting.png)
+![Share](https://raw.githubusercontent.com/rrrobo/rcj-scoring-docker-helper-windows-international/images/setting.png)  
 Check "Share" like the image and press Apply.
 
 **Note**  
@@ -56,12 +56,12 @@ If no password is set for the Windows account, set a password for the account be
 Download the scoreing system from below link.  
 [DOWNLOAD](https://github.com/rrrobo/rcj-scoring-docker-helper-windows-international/archive/master.zip)
 
-Please unzip completely!!
+Please unzip completely!!  
 ![Folder](https://raw.githubusercontent.com/rrrobo/rcj-scoring-docker-helper-windows-international/images/folder.png)
 
 Duble-click "setup" to start the setup.
 
-Installing...
+Installing...  
 ![Terminal](https://raw.githubusercontent.com/rrrobo/rcj-scoring-docker-helper-windows-international/images/terminal.png)
 
 
