@@ -1,0 +1,2 @@
+@echo off
+docker run -d --name rcj-scoring-japan -p 3000:80  -v mongodata:/data/db -v "%cd%\logs":/opt/rcj-scoring-system/logs -v "%cd%\TechnicalDocument":/opt/rcj-scoring-system/TechnicalDocument -v "%cd%\process.env":/opt/rcj-scoring-system/process.env -v "%cd%\leagues.json":/opt/rcj-scoring-system/leagues.json --restart=always ryorobo/rcj-rescue-scoring-japan:latest

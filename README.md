@@ -1,62 +1,24 @@
 # RoboCup Junior
-### Helper file for rescue scoring system environment construction
+### [Windows] Helper file for rescue scoring system environment construction
 This is a helper file used to build the RCJ Scoring System with a Docker image.
 
 ## Supported environment
-Unix (Ubuntu / CentOS etc...)
+Windows 10 Pro / Enterprise / Education
+
+**Windows10 Home is NOT suported!**
+
 
 ## Tested environment
-* Ubuntu 16.04 LTS
-* Ubuntu 18.04 LTS
-* Synology DiskStation DSM 6.2 (Official Docker Package Installed)
-* macOS 10.14 Mojave
+OS : Windows 10 Education 1803  
+PC : Lenovo X250  
+CPU : Intel Corei7 5600U  
+RAM : 16GB
 
-## Setup Docker
-The setup method differs depending on each OS.
-Check the contents of the page below and set up Docker ready for use.
-Or, by entering the following command, Docker is set up in one shot.
-`sudo curl -sSL https://get.docker.com/ | CHANNEL=stable sh`
+## Setup
 
-[https://docs.docker.com/install/](https://docs.docker.com/install/)
-
-
-
-## Download and run setup helper
-#### **If git is not installed on your system, please install it first.
-
-#### Download the setup helper
-`git clone https://github.com/rrrobo/rcj-scoring-docker`
-
-#### Start setup
-`cd rcj-scoring-docker`
-`sudo chmod +x *.sh`
-`./setup.sh`
-During execution, you may be asked to enter a password.
-
-When complete, access http://localhost:3000 (http://IP address:3000 when accessing from another PC) and the system is already started and ready to use.
-
-## Stop the system
-Execute the following command in the setup helper directory (rcj-scoring-docker).
-`./stop.sh`
-During execution, you may be asked to enter a password.
-
-## Resume the system
-Execute the following command in the setup helper directory (rcj-scoring-docker).
-`./start.sh`
-During execution, you may be asked to enter a password.
-
-## Restart the system
-Execute the following command in the setup helper directory (rcj-scoring-docker).
-`./restart.sh`
-During execution, you may be asked to enter a password.
-
-## Update the system
-Execute the following command in the setup helper directory (rcj-scoring-docker).
-When executed, the latest image is downloaded from Docker Hub and the container is replaced.
-The data of the created tournaments and competitions will be retained.
-`./update.sh`
-During execution, you may be asked to enter a password.
-Container replacement is performed even if there is no update.
+### STEP1: Setup Docker
+Access the following site and download the installer.
+[https://hub.docker.com/editions/community/docker-ce-desktop-windows](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
 
 ## Change password of admin account
 If you want to change the admin account password, edit the file `process.env` in the setup helper directory (rcj-scoring-docker) with a suitable editor.
