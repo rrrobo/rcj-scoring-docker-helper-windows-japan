@@ -1,3 +1,3 @@
 @echo off
-echo "Dockerã‚³ãƒ³ãƒ†ãƒŠã‚’å†èµ·å‹•ã—ã¾ã™"
+echo "DockerƒRƒ“ƒeƒi‚ğÄ‹N“®‚µ‚Ü‚·"
 docker restart rcj-scoring-japan

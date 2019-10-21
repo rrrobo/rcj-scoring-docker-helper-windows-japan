@@ -1,3 +1,3 @@
 @echo off
-echo "Dockerã‚³ãƒ³ãƒ†ãƒŠã‚’åœæ­¢ã—ã¾ã™"
+echo "DockerƒRƒ“ƒeƒi‚ğ’â~‚µ‚Ü‚·"
 docker stop rcj-scoring-japan

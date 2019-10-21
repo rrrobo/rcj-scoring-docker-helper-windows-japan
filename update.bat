@@ -1,9 +1,9 @@
 @echo off
-echo "Docker Cloudã‹ã‚‰æœ€æ–°ç‰ˆã®ã‚¤ãƒ¡ãƒ¼ã‚¸ã‚’ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ã—ã¾ã™"
+echo "Docker Cloud‚©‚çÅV”Å‚ÌƒCƒ[ƒW‚ðƒ_ƒEƒ“ƒ[ƒh‚µ‚Ü‚·"
 docker pull ryorobo/rcj-rescue-scoring-japan
-echo "å¤ã„ã‚³ãƒ³ãƒ†ãƒŠã‚’åœæ­¢ã—ã¾ã™"
+echo "ŒÃ‚¢ƒRƒ“ƒeƒi‚ð’âŽ~‚µ‚Ü‚·"
 docker stop rcj-scoring-japan
-echo "å¤ã„ã‚³ãƒ³ãƒ†ãƒŠã‚’å‰Šé™¤ã—ã¾ã™"
+echo "ŒÃ‚¢ƒRƒ“ƒeƒi‚ðíœ‚µ‚Ü‚·"
 docker rm rcj-scoring-japan
-echo "æ–°ã—ã„ã‚¤ãƒ¡ãƒ¼ã‚¸ã§èµ·å‹•ã—ã¾ã™"
+echo "V‚µ‚¢ƒCƒ[ƒW‚Å‹N“®‚µ‚Ü‚·"
 run.bat

@@ -1,3 +1,3 @@
 @echo off
-echo "Dockerã‚³ãƒ³ãƒ†ãƒŠã‚’é–‹å§‹ã—ã¾ã™"
+echo "DockerƒRƒ“ƒeƒi‚ğŠJn‚µ‚Ü‚·"
 docker start rcj-scoring-japan

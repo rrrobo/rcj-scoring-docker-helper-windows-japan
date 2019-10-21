@@ -1,11 +1,11 @@
 @echo off
-echo "å¿…è¦ãªãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã‚’ä½œæˆã—ã¾ã™"
+echo "•K—v‚ÈƒfƒBƒŒƒNƒgƒŠ‚ğì¬‚µ‚Ü‚·"
 mkdir logs
 mkdir TechnicalDocument
 mkdir fonts
-echo "Docker Cloudã‹ã‚‰æœ€æ–°ç‰ˆã®ã‚¤ãƒ¡ãƒ¼ã‚¸ã‚’ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ã—ã¾ã™"
+echo "Docker Cloud‚©‚çÅV”Å‚ÌƒCƒ[ƒW‚ğƒ_ƒEƒ“ƒ[ƒh‚µ‚Ü‚·"
 docker pull ryorobo/rcj-rescue-scoring-japan:latest
-echo "MongoDBã®ãƒ‡ãƒ¼ã‚¿ã‚¹ãƒˆãƒ¬ãƒ¼ã‚¸ã‚’ä½œæˆã—ã¾ã™"
+echo "MongoDB‚Ìƒf[ƒ^ƒXƒgƒŒ[ƒW‚ğì¬‚µ‚Ü‚·"
 docker volume create --name=mongodata
-echo "ã‚¤ãƒ¡ãƒ¼ã‚¸ã‚’èµ·å‹•ã—ã¾ã™"
+echo "ƒCƒ[ƒW‚ğ‹N“®‚µ‚Ü‚·"
 run.bat
