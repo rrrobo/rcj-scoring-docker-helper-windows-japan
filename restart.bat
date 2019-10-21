@@ -1,3 +1,3 @@
 @echo off
-echo "Restarting Docker container"
+echo "Dockerコンテナを再起動します"
 docker restart rcj-scoring-japan

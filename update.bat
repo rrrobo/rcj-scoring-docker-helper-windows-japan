@@ -1,9 +1,9 @@
 @echo off
-echo "Download the latest version of the image from Docker Cloud ..."
+echo "Docker Cloudから最新版のイメージをダウンロードします"
 docker pull ryorobo/rcj-rescue-scoring-japan
-echo "Stop the old container ..."
+echo "古いコンテナを停止します"
 docker stop rcj-scoring-japan
-echo "Remove the old container ..."
+echo "古いコンテナを削除します"
 docker rm rcj-scoring-japan
-echo "Launch with the new image ..."
+echo "新しいイメージで起動します"
 run.bat

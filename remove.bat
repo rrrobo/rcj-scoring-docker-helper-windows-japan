@@ -1,3 +1,3 @@
 @echo off
-echo "Remove the docker container"
+echo "Dockerコンテナを削除します"
 docker rm rcj-scoring-japan

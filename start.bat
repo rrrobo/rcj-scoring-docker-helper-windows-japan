@@ -1,3 +1,3 @@
 @echo off
-echo "Start the Docker container"
+echo "Dockerコンテナを開始します"
 docker start rcj-scoring-japan

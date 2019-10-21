@@ -1,3 +1,3 @@
 @echo off
-echo "Stop the Docker container"
+echo "Dockerコンテナを停止します"
 docker stop rcj-scoring-japan

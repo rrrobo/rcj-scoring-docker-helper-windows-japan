@@ -1,10 +1,11 @@
 @echo off
-echo "Create the necessary directories"
+echo "必要なディレクトリを作成します"
 mkdir logs
 mkdir TechnicalDocument
-echo "Download the latest version of the image from Docker Cloud"
+mkdir fonts
+echo "Docker Cloudから最新版のイメージをダウンロードします"
 docker pull ryorobo/rcj-rescue-scoring-japan:latest
-echo "Create data storage for MongoDB"
+echo "MongoDBのデータストレージを作成します"
 docker volume create --name=mongodata
-echo "Launch the image"
+echo "イメージを起動します"
 run.bat
